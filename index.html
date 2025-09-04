@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de Vendas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px auto;
+      text-align: center;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #e2e2e2;
+      font-weight: bold;
+    }
+
+    th:nth-child(2) {
+      background-color: #d1f9c2;
+    }
+
+    th:nth-child(3) {
+      background-color: #b6dafa;
+    }
+
+    th:nth-child(4) {
+      background-color: #d7c7fd;
+    }
+
+    th:nth-child(5) {
+      background-color: #ffcc99;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    caption {
+      caption-side: bottom;
+      font-size: 0.8em;
+      color: #555;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Period</th>
+        <th>Android</th>
+        <th>iOS</th>
+        <th>Windows Phone</th>
+        <th>Others</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2016Q1</td>
+        <td>83.4%</td>
+        <td>15.4%</td>
+        <td>0.8%</td>
+        <td>0.4%</td>
+      </tr>
+      <tr>
+        <td>2016Q2</td>
+        <td>87.6%</td>
+        <td>11.7%</td>
+        <td>0.4%</td>
+        <td>0.3%</td>
+      </tr>
+      <tr>
+        <td>2016Q3</td>
+        <td>86.8%</td>
+        <td>12.5%</td>
+        <td>0.3%</td>
+        <td>0.4%</td>
+      </tr>
+      <tr>
+        <td>2016Q4</td>
+        <td>81.4%</td>
+        <td>18.2%</td>
+        <td>0.2%</td>
+        <td>0.2%</td>
+      </tr>
+      <tr>
+        <td>2017Q1</td>
+        <td>85.0%</td>
+        <td>14.7%</td>
+        <td>0.1%</td>
+        <td>0.1%</td>
+      </tr>
+    </tbody>
+    <caption>Source: IDC, May 2017</caption>
+  </table>
+</body>
+</html>
